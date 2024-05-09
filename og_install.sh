@@ -14,7 +14,7 @@ if [ -f "$bash_profile" ]; then
 fi
 sleep 1 && curl -s https://raw.githubusercontent.com/nodesshablya/nibiru_shablya_testnet/main/shablya.sh | bash && sleep 1
 
-NODE="0g"
+NODE="0gchain"
 export DAEMON_HOME=$HOME/.0gchain
 export DAEMON_NAME=0gchaind
 if [ -d "$DAEMON_HOME" ]; then
